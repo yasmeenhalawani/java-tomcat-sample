@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'mvn-plugin'
+        maven 'maven-plugin'
     }   
     stages {
         stage('Build Application') {
